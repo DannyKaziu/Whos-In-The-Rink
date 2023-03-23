@@ -12,7 +12,7 @@ const players = [
 ];
 
 let selectedPlayer = getRandomPlayer(players);
-let remainingGuesses = 10;
+let remainingGuesses = 8;
 
 function getRandomPlayer(players) {
     return players[Math.floor(Math.random() * players.length)];
