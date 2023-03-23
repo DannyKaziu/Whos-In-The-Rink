@@ -6,9 +6,9 @@ const guessesCount = document.getElementById('guesses-count');
 
 // Replace this list with a list of NHL players and hints
 const players = [
-    { name: 'Player 1', hint: 'Hint for player 1' },
-    { name: 'Player 2', hint: 'Hint for player 2' },
-    { name: 'Player 3', hint: 'Hint for player 3' },
+    { name: 'Auston Matthews', hint: 'One of Toronto Maple Leafs 1st Overall Pick' },
+    { name: 'Wayne Gretzky', hint: 'Played for 4 Franchises, Oilers, Rangers, Blues and Kings' },
+    { name: 'Brandon Montour', hint: 'Keeghan Beats Off To This Player Every Night He Plays On His Fantasy Team' },
 ];
 
 let selectedPlayer = getRandomPlayer(players);
