@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056B3;
+}
+
+button:disabled {
+    background-color: #CCCCCC;
+    cursor: not-allowed;
+}
